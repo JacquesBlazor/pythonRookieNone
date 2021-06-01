@@ -36,7 +36,7 @@ pythonRookieNone
 
 11. 另外兩個常用指令 dir 和 help 可以找到很多基本資訊. 像是:
 -   (a) help('modules') -&gt; 可以查看本機所有可用的模組
--   (b) dir(__builtins__) -&gt; 可以查看內建函數和物件
+-   (b) dir(\_\_builtins\_\_) -&gt; 可以查看內建函數和物件
 
 12. 同一台電腦裡有時候會有多個 python 的執行檔, 特別是用虛擬環境時.
 
