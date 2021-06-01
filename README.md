@@ -4,7 +4,7 @@ pythonRookieNone
 補充對新手入門 Python 時一些基本而重要資訊提供參考:
 
 1. Python IDLE 的套件管理程式是 pip.exe, 安裝 IDLE 後可以在命令提示字元輸入
-   pip --version, 如果出現找不到 pip, 安裝時要勾 PATH, 沒勾可以自己加.
+-   pip --version, 如果出現找不到 pip, 安裝時要勾 PATH, 沒勾可以自己加.
 
 2. 在 Python 裡是透過 import 來匯入套件, 內建的函式像是 print(), 不需要套件.
 
@@ -22,21 +22,21 @@ pythonRookieNone
 
 8. import sys 套件後有很多資訊可以參考, 例如:
    分別輸入:
-   (a) sys.executable -&gt; 可以看到目前 python 直譯器的目錄位置
-   (b) sys.path -&gt; 可以看到套件匯入時的順序.
-   (c) sys.path.append('路徑名') -&gt; 可以暫時新增要匯入的模組的檔案路徑
-   (d) sys.builtin_module_names -&gt; 可以查看 Python 所有內建的模組名稱
+-   (a) sys.executable -&gt; 可以看到目前 python 直譯器的目錄位置
+-   (b) sys.path -&gt; 可以看到套件匯入時的順序.
+-   (c) sys.path.append('路徑名') -&gt; 可以暫時新增要匯入的模組的檔案路徑
+-   (d) sys.builtin_module_names -&gt; 可以查看 Python 所有內建的模組名稱
 
 9. import os 套件後也些資訊可以參考, 例如:
-   (a) os.getcwd() -&gt; 可以知道目前的工作目錄, 如果讀/寫檔案會在這個目錄
+-   (a) os.getcwd() -&gt; 可以知道目前的工作目錄, 如果讀/寫檔案會在這個目錄
 
 10. 而 pip 也是可以 import pip, 也有些資訊可以參考, 例如:
-   (a) pip.__path__ -&gt; 可以看到 pip 目前放在哪個目錄,
+-   (a) pip.__path__ -&gt; 可以看到 pip 目前放在哪個目錄,
        套件的目錄名稱通常為 /site-packages 通常在那個 pip 的上一層
 
 11. 另外兩個常用指令 dir 和 help 可以找到很多基本資訊. 像是:
-   (a) help('modules') -&gt; 可以查看本機所有可用的模組
-   (b) dir(__builtins__) -&gt; 可以查看內建函數和物件
+-   (a) help('modules') -&gt; 可以查看本機所有可用的模組
+-   (b) dir(__builtins__) -&gt; 可以查看內建函數和物件
 
 12. 同一台電腦裡有時候會有多個 python 的執行檔, 特別是用虛擬環境時.
 
