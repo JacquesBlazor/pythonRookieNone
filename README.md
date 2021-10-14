@@ -1,5 +1,5 @@
-# pythonRookieNone
-pythonRookieNone
+# pythonRookieNote
+pythonRookieNote
 
 補充對新手入門 Python 時一些基本而重要資訊提供參考:
 
